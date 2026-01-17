@@ -1,3 +1,5 @@
+// synchronours
+
 console.log(1)
 console.log(2)
 doSomething()
@@ -17,6 +19,8 @@ function doSomething(){
 5
 */
 
+
+// Asynchronours
 console.log(1)
 console.log(2)
 setTimeout(doSomething)
