@@ -13,3 +13,7 @@ const myLoader=() =>{
         }
     })
 }
+
+myLoader()
+.then(data =>console.log('Resolve value',data))
+.catch(error => console.log('Rejected with value',error))
